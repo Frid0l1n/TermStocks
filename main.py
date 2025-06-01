@@ -37,6 +37,8 @@ for symbol in stocks:
 
         if price_difference > 0:
               print(colors.colorize(line, "GREEN"))
+        elif price_difference == 0:
+            print(line)
         elif price_difference < 0:
               print(colors.colorize(line, "RED"))
         else:
