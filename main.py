@@ -90,7 +90,7 @@ def main():
 
         console.clear()
         console.print(stock_table)
-        console.print("\n[dim]Press Ctrl+C to exit. Refreshing in 60 seconds...[/dim]")
+        console.print("\n[dim]Press Ctrl+C to exit. Refreshing every 60 seconds...[/dim]")
 
         try:
             time.sleep(60)
